@@ -1,0 +1,1 @@
+{"root":["./src/setuptests.ts","./src/shared.ts","./src/vite-env.d.ts","./src/client/utils.ts","./src/client/components/index.ts","./src/mocks/server.ts","./src/server/common.ts","./src/server/server.ts","./src/shared/index.ts"],"errors":true,"version":"5.8.2"}
