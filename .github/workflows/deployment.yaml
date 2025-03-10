@@ -28,7 +28,7 @@ jobs:
       - name: Build Client
         run: yarn build
         env:
-          VITE_WS_SERVER_URL: ${{ secrets.WS_SERVER_URL }}
+          VITE_WS_SERVER_URL: ${{ vars.VITE_WS_SERVER_URL }}
 
       - name: Install Firebase Tools
         run: npm install -g firebase-tools
